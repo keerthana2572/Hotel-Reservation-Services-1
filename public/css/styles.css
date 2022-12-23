@@ -1,0 +1,111 @@
+
+li a:hover{
+  color: white!important;
+}
+
+li a{
+  color: grey!important;
+}
+
+.click{
+  color: white!important;
+  text-decoration: none!important;
+}
+
+.logo{
+  width: 70px;
+}
+
+a{
+  text-decoration: none!important;
+}
+
+
+.head-heading{
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+
+.head-para{
+  font-family: "Corinthia";
+  font-weight: 700;
+}
+
+.head-section{
+  padding: 20px;
+  margin-left:600px;
+}
+
+.card-img-overlay{
+  padding:50px!important
+
+}
+
+.restaurant{
+  color: black!important;
+}
+
+.stay{
+  color:white;
+}
+
+.hall{
+  color: white;
+}
+
+.card{
+  padding:50px;
+  border: none;
+  margin-left:450px;
+  background-color: #24242c!important;
+}
+
+.cards-class{
+  background-color: #24242c;
+}
+
+.card-text{
+  text-align: center;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 2;
+}
+
+.card-text-link{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+h5{
+  line-height: 1.7;
+  font-family: "Merriweather";
+  text-align: center;
+  color: white;
+}
+
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.info{
+  text-align: center;
+  line-height: 0.5;
+}
+
+.address{
+  padding-top:30px;
+}
+
+.fa-brands{
+  height: 50px;
+  width: 50px;
+
+  padding-bottom: 30px;
+}
+
+.phone-number{
+  color: grey!important;
+}

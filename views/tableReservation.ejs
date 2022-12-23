@@ -1,0 +1,92 @@
+<%- include("partials/tableHeader");-%>
+
+<div class="whole-div">
+
+
+<h1>Table Reservation</h1>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="images/dining1.jpeg" class="d-block w-100" alt="...">
+</div>
+
+<div class="carousel-item">
+  <img src="images/dining2.jpeg" class="d-block w-100" alt="...">
+</div>
+</div>
+</div>
+<form class="reserve-table" action="/" method="post">
+  <p><label>Name: </label><input type="text" placeholder="Name" required name="Name"></p>
+  <p><label>Phone number: </label><input type="tel" name="" value="" placeholder="Phone"></p>
+    <p><label>No of adults: </label><input type="number" id="adults" name="adults" min="0" max="20" value="0" onKeyUp="totalPrice()"></p>
+    <p><label>No of kids: </label><input type="number" id="children" name="children" min="0" max="20" value="0" onKeyUp="totalPrice()"></p>
+    <p><label>Date and time: </label><input type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+</form>
+ <p class="discount"><small>*60% discount for kids below 5 years!</small></p>
+ <h3>Pricing</h3>
+ <div class="row">
+<div class="col-sm-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Price for Adults</h5>
+
+    <a href="#" class="btn btn-primary">Rs.799</a>
+  </div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Price for kids</h5>
+    <a href="#" class="btn btn-primary">Rs.599</a>
+  </div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">GST</h5>
+    <a href="#" class="btn btn-primary">12% GST</a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="total-price">
+
+ <button type="button" class="btn btn-outline-primary btn-lg" onclick="totalPrice()">Total price</button>
+  <div><h4>Rs.</h4>
+    <h4 id="totalPrice">0</h4></div>
+
+    <div class="print-receipt">
+       <i class="fas fa-solid fa-print"></i><p>Print Receipt</p>
+    </div>
+
+<div>
+  <button type="submit" name="button" class="btn btn-outline-primary btn-lg">Book Table</button>
+</div>
+
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<%- include("partials/footer");-%>
+
+<script>
+  function totalPrice(){
+         var total = 0
+         var children = document.getElementById('children').value;
+         var adults = document.getElementById('adults').value;
+         total = (children * 599) + (adults * 799);
+         totalWithGst = total + 12/100;
+         console.log(totalWithGst);
+         document.getElementById('totalPrice').innerHTML=totalWithGst;
+
+         }
+</script>
+</body>
+
+</html>

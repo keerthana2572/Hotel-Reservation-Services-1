@@ -1,0 +1,81 @@
+<%- include("partials/conventionHeader");-%>
+
+<h1>Convention Hall</h1>
+<section>
+
+  <div class="container">
+      <div class="row mt-3">
+          <div class="col-12">
+              <div class="bg p-4 rounded width_con">
+                  <div class="text_clr">
+                      <form action="" method="post">
+                          <p class="dates">Check In : <span style="visibility:hidden">a</span>  <input type="date"></p>
+                          <p class="dates">Check out : <input type="date" ></p>
+
+                              <button class="btn btn-primary" type="submit" name="show">Check Availability</button>
+
+                      </form>
+                  </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images\meeting.jpeg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Conference Hall</h5>
+            <p class="card-text"></p>
+            <p class="card-text">We have conference halls having a seating capacity of upto 500 people</p>
+            <button class="btn btn-primary" type="submit">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width:100% ;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images\party.jpeg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Party Hall</h5>
+            <p class="card-text"></p>
+            <p class="card-text">Birthday parties, Anniversaries and various other parties can be enjoyed here.</p>
+            <button class="btn btn-primary" type="submit">Check availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wed-card card mb-3 " style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images\wedding-hall.jpeg" class="img-fluid rounded-start wedhall" alt="..." width:"100px" height:"100px">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Hall</h5>
+            <p class="card-text"></p>
+            <p class="card-text">We provide wedding halls for upto 500 guests.</p>
+            <button class="btn btn-primary" type="submit">Check Availability</button>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<!-- bootstrap script tag was missing -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<%- include("partials/footer");-%>
+  </body>
+</html>

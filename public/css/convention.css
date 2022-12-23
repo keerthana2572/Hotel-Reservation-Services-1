@@ -1,0 +1,104 @@
+body{
+    background-color:#24242c!important;
+    color: white!important;
+}
+
+.card{
+    color: white!important;
+    background-color: #24242c!important;
+    padding-top: 100px;
+    margin-left:470px!important;
+    border: none;
+}
+
+.wed-card{
+  padding-bottom:80px;
+}
+
+.card-text{
+  text-align: left;
+  width:350px;
+  line-height: 2;
+  font-family: "Montserrat";
+}
+
+h5{
+  font-family: "Merriweather";
+  line-height: 2;
+}
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+form{
+    margin-left:450px;
+}
+/* nav{
+    color:"white"!important;
+} */
+
+h1{
+  font-family: "Merriweather";
+    margin-left:550px!important;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.dates{
+  font-family: "Montserrat";
+}
+
+/* h1{
+  color:white;
+} */
+
+
+/* header and footer style starts */
+li a:hover{
+  color: white!important;
+}
+
+.navbar{
+  background-color: black!important;
+}
+
+li a{
+  color: grey!important;
+}
+
+.logo{
+  width: 70px!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.info{
+  text-align: center;
+  line-height: 0.5;
+}
+
+.address{
+  padding-top:30px;
+}
+
+.fa-brands{
+  height: 50px;
+  width: 50px;
+
+  padding-bottom: 30px;
+}
+
+.phone-number{
+  color: grey!important;
+}
+
+/* header and footer styles ends */

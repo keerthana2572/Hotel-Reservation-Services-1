@@ -1,0 +1,207 @@
+body{
+  /* background-image: linear-gradient(to bottom right, #000000 ,  #ac00e6) ; */
+  background-color: black!important;
+color: white !important;
+margin: auto;
+}
+
+h1{
+  font-family: "Merriweather";
+  font-weight: 400;
+  padding: 20px;
+  margin-left: 550px;
+}
+
+h3{
+  font-family: "Merriweather";
+  /* font-weight: 600 !important; */
+  padding: 20px;
+  margin-left: 110px;
+}
+
+h5{
+  font-family: "Montserrat";
+  font-weight: 600 !important;
+}
+
+h4{
+  padding-top: 15px;
+  margin-left: 50px;
+}
+
+p{
+  font-family: "Montserrat";
+  font-weight: 300;
+
+}
+
+form{
+  padding: 20px;
+  margin-left: 350px;
+}
+
+label{
+  width: 150px;
+  display: inline-block;
+}
+
+input{
+  margin-left: 150px !important;
+}
+
+
+.whole-div{
+  background-color: #24242c;
+}
+
+/* footer p{
+  padding-top: 50px;
+  margin-left:500px;
+} */
+
+
+.card{
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600 !important;
+  padding: 20px;
+  width: 300px;
+  margin:auto;
+}
+
+.discount{
+  margin-left: 370px;
+}
+
+.row{
+  padding: 50px;
+}
+
+.total-price{
+  margin-left: 670px;
+  padding-bottom: 50px;
+}
+
+
+.btn{
+  color: white!important;
+  font-family: "Montserrat" !important;
+  font-weight: 300 !important;
+
+}
+
+.print-receipt{
+  margin-left: 15px;
+  padding: 40px;
+}
+
+.print-receipt p{
+  margin-left:-40px;
+}
+
+/* .footer-div{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+} */
+
+
+/* header and footer style starts */
+li a:hover{
+  color: white!important;
+}
+
+.navbar{
+  background-color: black!important;
+}
+
+li a{
+  color: grey!important;
+}
+
+.logo{
+  width: 70px!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  font-family: "Arial";
+  line-height: 0.5;
+}
+
+.info{
+  text-align: center;
+  line-height: 0.5;
+  font-family: "Arial";
+}
+
+.address{
+  padding-top:30px;
+  font-family: "Arial";
+}
+
+.fa-brands{
+  height: 50px;
+  width: 50px;
+
+  padding-bottom: 30px;
+}
+
+.phone-number{
+  color: grey!important;
+  font-family: "Arial";
+}
+
+.socials{
+  font-family: "Arial";
+}
+
+/* header and footer styles ends */
